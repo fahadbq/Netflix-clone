@@ -9,14 +9,12 @@ const Row = ({ title, getUrl, isLargeRow }) => {
 
   useEffect(() => {
     const getData = async () => {
-      const request = await axios.get(getUrl);
-      setMovies(request.data.results);
-      return request;
+      const response = await axios.get(getUrl);
+      setMovies(response.data.results);
+      return response;
     };
     getData();
   }, [getUrl]);
-
-  console.table(movies);
 
   return (
     <div className="row">
