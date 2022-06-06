@@ -7,4 +7,7 @@ Netflix is something that almost everyone loves. So, this is a clone that allows
 ### Note
 
 To Scroll the poster use Shift+Scroll
+
+#
+
 ![Netflix-Screenshot](https://user-images.githubusercontent.com/95031693/172234160-a334f7bf-a91d-4269-afae-7c88820236c7.png)
